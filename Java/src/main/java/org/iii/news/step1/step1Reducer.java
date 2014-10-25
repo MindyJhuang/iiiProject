@@ -62,7 +62,7 @@ public class step1Reducer extends Reducer<Text, Text, Text, IntWritable> {
             context.write(outputKey,outputValue);
     	}    	       
         words.clear();
-    }
+	}
 	
 	
 	@Override
